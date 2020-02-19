@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>KSearch Asia Exam</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="fb-nav navbar navbar-expand-sm navbar-dark">
+	<div class="container">
+		<form class="form-inline" action="/action_page.php">
+			<a class="facebook-logo" href="#">
+		    	<img src="images/facebook-logo.png">
+		  	</a>
+			<div class="input-group search">
+				<input type="text" class="form-control search-input" placeholder="Every Interaction">
+				<div class="input-group-append">
+					<span class="input-group-text search-button">
+						<i class="fa fa-search"></i>
+					</span>
+				</div>
+			</div>
+		</form>
+
+		<!-- <ul class="navbar-nav ml-md-auto">
+			<li class="nav-item">
+				<img class="avatar" src="images/logo.png" alt="logo">
+				<a class="nav-link" href="#">Alex
+			    	
+			  	</a>
+		    </li>
+		    <li class="nav-item">
+		      	<a class="nav-link">Home</a>
+		    </li>
+		</ul> -->
+	</div>
+</nav>
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-md-2">
+				<div class="profile-details">
+					<img class="avatar-big" src="/images/logo.png">
+					<h3 class="page-name">Every Interaction<i class="fa fa-check-circle"></i></h3>
+					<p class="page-username">@EveryInteraction</p>
+				</div>
+				
+				<div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+					<a class="nav-link active" data-toggle="pill" href="#">Home</a>
+					<a class="nav-link" data-toggle="pill" href="#">About</a>
+					<a class="nav-link" data-toggle="pill" href="#">Notes</a>
+					<a class="nav-link" data-toggle="pill" href="#">Email Signup</a>
+					<a class="nav-link" data-toggle="pill" href="#">Photos</a>
+					<a class="nav-link" data-toggle="pill" href="#">Reviews</a>
+					<a class="nav-link" data-toggle="pill" href="#">Videos</a>
+					<a class="nav-link" data-toggle="pill" href="#">Likes</a>
+					<a class="nav-link" data-toggle="pill" href="#">Posts</a>
+				</div>
+
+				<button class="btn btn-success create-page-btn" type="button">Create a Page</button>
+			</div>
+
+			<div class="col-md-10">
+				<div class="row mb-3">
+					<div class="col-md-12">
+						<!-- header -->
+						<div class="jumbotron jumbotron-fluid mb-0 header" style="">
+						</div>
+						<!-- header -->
+
+						<!-- navbar -->
+						<nav class="navbar navbar-expand-lg navbar-light bg-light rounded-bottom navbar-2">		
+							<div class="btn-group btn-group-1" role="group">				 
+								<button class="btn btn-secondary" type="button">
+									<img class="button-icon" src="/images/like-icon-active.png">
+									Liked
+									<i class="fa fa-caret-down ml-1"></i>
+								</button> 
+								<button class="btn btn-secondary" type="button">
+									<img class="button-icon" src="/images/message-icon.png">
+									Message
+								</button> 
+								<button class="btn btn-secondary" type="button">
+									<img class="button-icon" src="/images/more-icon.png">
+									More
+								</button>
+							</div>
+	 
+					
+							<ul class="navbar-nav ml-md-auto">
+								<button type="button" class="btn btn-primary contact-us-btn">Contact Us</button>
+							</ul>
+						</nav>
+						<!-- navbar -->
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-7">
+						<nav class="navbar navbar-expand-lg navbar-3">		
+							<div class="btn-group" role="group">				 
+								<button class="btn btn-secondary border-0 active" type="button">
+									<img class="button-icon-2" src="/images/pen-icon.png">
+									Status
+								</button> 
+								<button class="btn btn-secondary border-0" type="button">
+									<img class="button-icon-2" src="/images/image-icon.png">
+									Photo
+								</button>
+							</div>
+						
+						
+							<ul class="navbar-nav ml-md-auto">
+								<button class="btn">
+									<img class="button-icon-2" src="/images/logo.png">
+									<i class="fa fa-caret-down ml-1"></i>
+								</button>
+							</ul>
+						</nav>
+						<div class="md-form">
+						  <img class="text-area-image" src="/images/logo.png">
+						  <textarea class="md-textarea form-control post-text-area" rows="3" placeholder="Write something on this Page..."></textarea>
+						</div>
+
+						<div class="post-wrapper">
+							<div class="post-details">
+								<div class="media">
+									<img class="post-avatar" src="images/logo.png" alt="logo">
+									<div class="media-body">
+										<h5 class="post-title">Every Interaction</h5>
+										<span class="post-time">23 hours · <i class="fa fa-globe"></i></span>
+									</div>
+								</div>
+								<p class="post-description">Perspective FM : #15 How to create a winning proposal with Dylan Baskind from Qwilr</p>
+								<div class="post-image-wrapper">
+									<img class="post-image" src="/images/post-1.png">
+									<div class="image-details">
+										<h5 class="image-title">#15 How to create a winning proposal with Dylan Baskind from Qwilr</h5>
+										<p class="image-description">This week Jon is joined by Dylan Baskind - designer/developer and founder of proposal writing tool Qwilr. We speak about Dylan's journey from working in the agency world, having direct clients and hitting frustrations with creating proposals in the ‘print’ mentality of an A4 PDF doc that takes way too much time to create and delivers an inferior experience for both creator and client. We talk about how Qwilr came to be and what goes into making a great proposal.</p>
+										<span class="image-author">PERSPECTIVE.FM</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-5">
+						<div class="jumbotron"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+</body>
+</html>
