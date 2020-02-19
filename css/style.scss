@@ -1,0 +1,105 @@
+$primary-font-family: Arial, Helvetica, sans-serif;
+$body-background-color: #e9eaed;
+$primary-font-size: 12px;
+
+$primary-border-radius: 2px;
+
+$button-font-weight: bold;
+$button-box-shadow: none;
+
+$primary-button-color: #4080ff;
+$primary-button-hover-color: #29487d;
+
+$secondary-button-color: #f6f7f9;
+$secondary-button-border-color: #ced0d4;
+$secondary-button-text-color: #555963;
+$secondary-button-hover-color: #ebedf0;
+
+$primary-bottom-margin: 15px;
+
+$primary-navbar-color: #3b5998;
+
+// -- MAIN --
+body {
+	background-color: $body-background-color !important;
+	font-size: $primary-font-size !important;
+	font-family: $primary-font-family !important;
+}
+
+.btn {
+	border-radius: $primary-border-radius !important;
+	font-size: $primary-font-size !important;
+	font-weight: $button-font-weight !important;
+	padding: 0 10px !important;
+
+	&:focus {
+		box-shadow: $button-box-shadow !important;
+	}
+
+	&.btn-primary {
+		background-color: $primary-button-color !important;
+		height: 28px !important;
+		vertical-align: middle !important;
+
+		&:hover {
+			background-color: $primary-button-hover-color !important;
+		}
+	}
+
+	&.btn-secondary {
+		background-color: $secondary-button-color !important;
+		border-color: $secondary-button-border-color !important;
+		color: $secondary-button-text-color !important;
+		height: 28px !important;
+
+		&:hover {
+			background-color: $secondary-button-hover-color !important;
+		}
+	}
+}
+
+.fa {
+	align-self: center;
+}
+
+.mb-15 {
+	margin-bottom: $primary-bottom-margin;
+}
+// -- MAIN --
+
+// -- NAVBAR -- 
+.navbar {
+	background-color: $primary-navbar-color !important;
+	height: 42px !important;
+
+	.nav-item {
+		font-weight: bold !important;
+	}
+
+	.facebook-logo {
+		margin-right: 5px;
+	}
+
+	.search-input {
+		border-radius: 2px 0 0 2px!important;
+		border: none !important;
+		height: 24px !important;
+		width: 400px !important;
+	}
+
+	.search-button {
+		border-radius: 0 2px 2px 0 !important;	
+		border: none !important;
+		padding: 0 14px !important;
+		height: 24px !important;
+		width: 46px !important;
+	}
+
+	.avatar {
+		height: 24px;
+	    width: 24px;
+	}
+}
+
+
+// -- NAVBAR --
