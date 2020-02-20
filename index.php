@@ -1,74 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<title>KSearch Asia Exam</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+<?php include '/layouts/header.php'; ?>
 
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-</head>
-<body>
+<?php include '/layouts/navbar.php'; ?>	
 
-<nav class="fb-nav navbar navbar-expand-sm navbar-dark sticky-top">
-	<div class="container">
-		<form class="form-inline" action="#">
-			<a class="facebook-logo" href="#">
-		    	<img src="images/facebook-logo.png">
-		  	</a>
-			<div class="input-group search">
-				<input type="text" class="form-control search-input" placeholder="Every Interaction">
-				<div class="input-group-append">
-					<button class="input-group-text search-button">
-						<i class="fa fa-search"></i>
-					</buttonn>
-				</div>
-			</div>
-		</form>
-
-		<!-- <ul class="navbar-nav ml-md-auto">
-			<li class="nav-item">
-				<img class="avatar" src="images/logo.png" alt="logo">
-				<a class="nav-link" href="#">Alex
-			    	
-			  	</a>
-		    </li>
-		    <li class="nav-item">
-		      	<a class="nav-link">Home</a>
-		    </li>
-		</ul> -->
-	</div>
-</nav>
-	
 	<div class="container">
 		<div class="row">
 			<div class="col-md-2">
-				<div class="side-nav">
-					<div class="profile-details">
-						<img class="avatar-big" src="/images/logo.png">
-						<h3 class="page-name">Every Interaction<i class="fa fa-check-circle"></i></h3>
-						<p class="page-username">@EveryInteraction</p>
-					</div>
-					
-					<div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-						<a class="nav-link active" data-toggle="pill" href="#">Home</a>
-						<a class="nav-link" data-toggle="pill" href="#">About</a>
-						<a class="nav-link" data-toggle="pill" href="#">Notes</a>
-						<a class="nav-link" data-toggle="pill" href="#">Email Signup</a>
-						<a class="nav-link" data-toggle="pill" href="#">Photos</a>
-						<a class="nav-link" data-toggle="pill" href="#">Reviews</a>
-						<a class="nav-link" data-toggle="pill" href="#">Videos</a>
-						<a class="nav-link" data-toggle="pill" href="#">Likes</a>
-						<a class="nav-link" data-toggle="pill" href="#">Posts</a>
-					</div>
-
-					<button class="btn btn-success create-page-btn" type="button">Create a Page</button>
-				</div>
-				
+				<?php include '/layouts/sidenav.php'; ?>
 			</div>
 
 			<div class="col-md-10">
@@ -328,5 +265,4 @@
 		</div>
 	</div>
 	
-</body>
-</html>
+<?php include '/layouts/footer.php'; ?>
