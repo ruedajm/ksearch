@@ -1,13 +1,13 @@
-<nav class="fb-nav navbar navbar-expand-sm navbar-dark sticky-top">
+<nav class="fb-nav navbar navbar-expand-lg sticky-top">
 	<div class="container">
 		<form class="form-inline" action="#">
 			<a class="facebook-logo" href="#">
 		    	<img src="images/facebook-logo.png">
 		  	</a>
-			<div class="input-group search">
-				<input type="text" class="form-control search-input" placeholder="Every Interaction">
+			<div class="input-group">
+				<input type="text" class="form-control navbar-search-input" placeholder="Every Interaction">
 				<div class="input-group-append">
-					<button class="input-group-text search-button">
+					<button class="input-group-text navbar-search-button">
 						<i class="fa fa-search"></i>
 					</buttonn>
 				</div>

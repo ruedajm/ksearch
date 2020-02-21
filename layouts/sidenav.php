@@ -1,5 +1,5 @@
 <div class="side-nav">
-	<div class="profile-details">
+	<div class="profile-details mb-15">
 		<img class="avatar-big" src="/images/logo.png">
 		<h3 class="page-name">Every Interaction<i class="fa fa-check-circle"></i></h3>
 		<p class="page-username">@EveryInteraction</p>
