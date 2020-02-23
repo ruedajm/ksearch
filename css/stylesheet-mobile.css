@@ -1,0 +1,399 @@
+body {
+	font-family: Arial, Helvetica, sans-serif !important;
+	color: #141823 !important;
+	background-color: #ccced3 !important;
+}
+
+.w-100 {
+	width: 100%;
+}
+
+.checked {
+	color: #5890ff !important;
+}
+
+.see-all-btn {
+	font-size: 14px !important;
+}
+
+.see-all-btn i {
+	color: #d1d4d9;
+	margin-left: 5px;
+}
+
+.custom-card {
+	background-color: #fff;
+	border: 1px solid #ced0d4;
+	padding: 10px 0 0;
+}
+
+.btn-primary {
+	background-color: #4267b2 !important;
+	border-color: #4267b2 !important;
+}
+
+.btn-transparent {
+	background-color: none;
+	color: #6a7180 !important;
+}
+
+.avatar-sm {
+	display: inline-block;
+	height: 24px;
+    width: 24px;
+}
+
+.avatar-md {
+	display: inline-block;
+	border-radius: 4px;
+	width: 30px;
+	height: 30px;
+}
+
+.avatar-lg {
+	display: inline-block;
+	border: 1px solid #e6e6e6;
+	/*border-radius: 4px;*/
+	height: 40px;
+	width: 40px;
+}
+
+.avatar-xl {
+	display: inline-block;
+	border: 1px solid #e6e6e6 !important;
+	border-radius: 4px;
+	margin: 15px 0;
+	width: 75px;
+}
+
+.media {
+	align-items: center !important;
+}
+
+.media .media-body {
+	margin-left: 10px;
+}
+
+.card {
+	border: none !important;
+}
+
+.card-header {
+	background-color: #fff !important;
+	border: none !important;
+	padding: 0px 10px 0 !important;
+	font-size: 14px !important;
+	text-align: left;
+}
+
+.card-body {
+	border-bottom: 1px solid #e5e6e9 !important;
+	padding: 10px 10px !important;
+	line-height: 15px;
+}
+
+.card .card-body span {
+	font-size: 12px;
+}
+
+.card .card-body p {
+	color: #4e5665;
+	font-size: 12px;
+	margin-top: 5px;
+	margin-bottom: 0;
+}
+
+.card .card-body a {
+	font-size: 12px;
+}
+
+
+.fb-nav {
+	background-color: #3b5998;
+	padding: 20px 2rem 10px 1rem !important;
+}
+
+.fb-nav .form-inline {
+	width: 100%;
+}
+
+.fb-nav .form-inline i {
+	margin-right: 20px;
+	color: #fff;
+	font-size: 25px;
+}
+
+.fb-nav .form-inline .input-group {
+	display: contents;
+	width: 100% !important;
+}
+
+.fb-nav .form-inline .input-group .form-control {
+	color: #fff;
+	background-color: #293e6a;
+	border-color: #293e6a;
+    font-size: 12px;
+}
+
+.fb-nav .form-inline .input-group .form-control::placeholder {
+	color: #fff;
+	text-align: center;
+}
+
+.header {
+	background-image: url('/images/header.jpg'); 
+	background-size: cover; 
+	height: 250px; 
+	width: 100%;
+}
+
+.page-details {
+	background-color: #fff;
+}
+
+.page-details .media .media-body .page-name {
+	color: #000;
+	font-size: 23px;
+}
+
+.page-details .media .media-body .page-name i {
+	color: #7f7f7f;
+}
+
+.page-details .media .media-body .page-username {
+	color: #98949c;
+	font-size: 12px;
+}
+
+.page-details .contact-us-btn {
+	width: 100%;
+}
+
+.social-btn-group {
+	margin-top: 10px;
+}
+
+.social-btn-group .btn-group .btn-transparent .lg-btn-icon {
+	width: 20px;
+}
+
+.social-btn-group .btn-group .btn-transparent span {
+	display: block;
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.social-btn-group .btn-group .btn-transparent.like-btn span.active {
+	color: #4267b2;
+}
+
+.social-btn-group .btn-group .btn-transparent.follow-btn span.active {
+	color: #4267b2;
+}
+
+.card-body.rating-section {
+	padding: 10px 15px !important;
+}
+
+.rating-card {
+	background-color: #fff;
+	border: 1px solid #ced0d4;
+	text-align: center;
+	padding: 10px 0;
+}
+
+.rating-card span{
+    font-size: 12px;
+    color: #9197a3;
+}
+
+.fb-navbar-2 {
+	background-color: #fff;
+}
+
+.fb-navbar-2 .btn-group .nav.nav-pills {
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+}
+
+.fb-navbar-2 .btn-group .nav.nav-pills .nav-link {
+	display: inline-block;
+	color: #90949c;
+	padding: 10px 10px;
+	border-radius: 0 !important;
+	font-size: 12px;
+	width: 18%;
+}
+
+.fb-navbar-2 .btn-group .nav.nav-pills .nav-link.active {
+	color: #4267b2;
+	background-color: #fff;
+	border-bottom: 2px solid #4267b2;
+}
+
+.about-card {
+	background-color: #fff;
+}
+
+.about-card .card .card-body.rating-section  span {
+	color: #4e5665;
+	font-size: 16px;
+}
+
+.about-card .card .card-body.rating-section  span.rating {
+	margin-left: 5px
+}
+
+.about-card .card .card-body.rating-section p {
+	margin-top: 10px;
+}
+
+.about-card .card .card-body .media {
+	margin-bottom: 15px;
+}
+
+.about-card .card .card-body .icon {
+	width: 15px;
+}
+
+.visitor-posts .card-body {
+	padding-bottom: 0 !important;
+}
+
+.visitor-posts .btn-group {
+	width: 100%;
+}
+
+.visitor-posts .btn-group .btn {
+	color: #9399a4;
+	border-top: 1px solid #dcdee3;
+	border-radius: 0;
+	padding: 20px 0;
+}
+
+.visitor-posts .btn-group .btn.btn-left {
+	border-right: 1px solid #dcdee3;
+}
+
+.photo-gallery {
+	display: flex;
+	overflow: scroll;
+}
+
+.photo-gallery .gallery-photo {
+	height: 100%;
+    margin-right: 5px;
+}
+
+/* -- SINGLE POST -- */
+.posts .post-wrapper {
+	display: block;
+	background-color: #fff;
+	padding: 12px 12px 0;
+	border-radius: 2px 2px 0 0;
+}
+
+.posts .media {
+	margin-bottom: 10px;
+}
+
+.posts .post-title {
+	color: #365899;
+	font-weight: bold;
+	font-size: 14px;
+	margin-bottom: 4px;
+}
+
+.posts .post-time {
+	color: #616770;
+	font-size: 12px;
+}
+
+.posts .post-description {
+	font-size: 14px;
+}
+
+.posts .post-image-wrapper {
+	border: 1px solid #e9ebee;
+	box-shadow: 0 2px 4px -2px #e9ebee;
+}
+
+.posts .post-image {
+	width: 100%;
+	height: 
+}
+
+.posts .image-details {
+	padding: 12px 12px;
+}
+
+.posts .image-title {
+	font-size: 16px;
+	font-weight: bold;
+	color: #000;
+}
+
+.posts .image-title:hover {
+	color: #000;
+	text-decoration: none;
+}
+
+.posts .image-description {
+    display: -webkit-box;
+    cursor: pointer;
+	font-size: 12px;
+	overflow: hidden;
+    text-overflow: ellipsis;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;  
+}
+
+.posts .image-author {
+	color: #93949f;
+	text-transform: uppercase;
+	font-size: 11px;
+}
+
+.posts .image-author:hover {
+	color: #93949f;
+}
+
+.posts .social-button-wrapper {
+	margin-top: 15px;
+	border-top: 1px solid #e6e6e6;
+}
+
+.posts .social-btn-group {
+	margin: 5px 0 5px;
+	width: 100%;
+}
+
+.posts .social-button {
+	color: #7f7f7f !important;
+	font-size: 12px;
+}
+
+.posts .social-button span {
+	vertical-align: middle;
+}
+/* -- SINGLE POST -- */
+
+.footer-nav {
+	position: fixed;
+    background: #fff;
+    bottom: 0;
+    text-align: center;
+    padding: 5px 0;
+    width: 100%;
+    border-top: 8px solid #ccced3;
+}
+
+.footer-nav .btn-group {
+	width: 100%
+}
+
+.footer-nav .btn-group .btn img {
+	width: 20px;
+}
+

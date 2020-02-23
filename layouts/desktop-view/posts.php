@@ -2,10 +2,10 @@
 	<div class="post-wrapper">
 		<div class="post-details">
 			<div class="media">
-				<img class="post-avatar" src="images/logo.png" alt="logo"><a href="#"></a>
+				<a href="#"><img class="avatar-lg" src="images/logo.png" alt="logo"></a>
 				<div class="media-body">
-					<h5 class="post-title">Every Interaction</h5>
-					<span class="post-time">23 hours · <i class="fa fa-globe"></i></span>
+					<a href="#" class="post-title">Every Interaction</a><br>
+					<a href="#" class="post-time">23 hours · <i class="fa fa-globe"></i></a>
 				</div>
 			</div>
 			<p class="post-description">Perspective FM : #15 How to create a winning proposal with Dylan Baskind from Qwilr</p>
@@ -24,24 +24,24 @@
 		<div class="social-button-wrapper">
 			<div class="btn-group social-btn-group" role="group">				 
 				<button class="btn social-button" type="button">
-					<i class="fa fa-thumbs-up"></i>
-					Like
+					<img src="/images/like-button.png">
+					<span>Like</span>
 				</button> 
 				<button class="btn social-button" type="button">
-					<i class="fa fa-comment"></i>
-					Comment
+					<img src="/images/comment-button.png">
+					<span>Comment</span>
 				</button> 
 				<button class="btn social-button" type="button">
-					<i class="fa fa-share"></i>
-					Share
+					<img src="/images/share-button.png">
+					<span>Share</span>
 				</button>
 			</div>
 		</div>
 		
 	</div>
-	<div class="comment-section">
+	<div class="comment-section mb-15">
 		<div class="input-group">
-			<img src="/images/logo.png" class="comment-avatar">
+			<img src="/images/logo.png" class="avatar-md">
 		  	<input type="text" class="form-control comment-input" placeholder="Write a comment...">
 		  	<div class="input-group-append">
 			    <button class="btn comment-button" type="button"><i class="fa fa-camera"></i></button>
@@ -53,10 +53,10 @@
 	<div class="post-wrapper">
 		<div class="post-details">
 			<div class="media">
-				<img class="post-avatar" src="images/logo.png" alt="logo"><a href="#"></a>
+				<a href="#"><img class="avatar-lg" src="images/logo.png" alt="logo"></a>
 				<div class="media-body">
-					<h5 class="post-title">Every Interaction</h5>
-					<span class="post-time">12 August at 13:06 · <i class="fa fa-globe"></i></span>
+					<a href="#" class="post-title">Every Interaction</a><br>
+					<a href="#" class="post-time">12 August at 13:06 · <i class="fa fa-globe"></i></a>
 				</div>
 			</div>
 			<p class="post-description">Good culture in digital teams is all about people</p>
@@ -75,24 +75,24 @@
 		<div class="social-button-wrapper">
 			<div class="btn-group social-btn-group" role="group">				 
 				<button class="btn social-button" type="button">
-					<i class="fa fa-thumbs-up"></i>
-					Like
+					<img src="/images/like-button.png">
+					<span>Like</span>
 				</button> 
 				<button class="btn social-button" type="button">
-					<i class="fa fa-comment"></i>
-					Comment
+					<img src="/images/comment-button.png">
+					<span>Comment</span>
 				</button> 
 				<button class="btn social-button" type="button">
-					<i class="fa fa-share"></i>
-					Share
+					<img src="/images/share-button.png">
+					<span>Share</span>
 				</button>
 			</div>
 		</div>
 		
 	</div>
-	<div class="comment-section">
+	<div class="comment-section mb-15">
 		<div class="input-group">
-			<img src="/images/logo.png" class="comment-avatar">
+			<img src="/images/logo.png" class="avatar-md">
 		  	<input type="text" class="form-control comment-input" placeholder="Write a comment...">
 		  	<div class="input-group-append">
 			    <button class="btn comment-button" type="button"><i class="fa fa-camera"></i></button>
@@ -104,10 +104,10 @@
 	<div class="post-wrapper">
 		<div class="post-details">
 			<div class="media">
-				<img class="post-avatar" src="images/logo.png" alt="logo"><a href="#"></a>
+				<a href="#"><img class="avatar-lg" src="images/logo.png" alt="logo"></a>
 				<div class="media-body">
-					<h5 class="post-title">Every Interaction</h5>
-					<span class="post-time">7 August at 12:24 · <i class="fa fa-globe"></i></span>
+					<a href="#" class="post-title">Every Interaction</a><br>
+					<a href="#" class="post-time">7 August at 12:24 · <i class="fa fa-globe"></i></a>
 				</div>
 			</div>
 			<p class="post-description">Creative brains need time off. A burned out designer is no use to anyone.</p>
@@ -126,24 +126,24 @@
 		<div class="social-button-wrapper">
 			<div class="btn-group social-btn-group" role="group">				 
 				<button class="btn social-button" type="button">
-					<i class="fa fa-thumbs-up"></i>
-					Like
+					<img src="/images/like-button.png">
+					<span>Like</span>
 				</button> 
 				<button class="btn social-button" type="button">
-					<i class="fa fa-comment"></i>
-					Comment
+					<img src="/images/comment-button.png">
+					<span>Comment</span>
 				</button> 
 				<button class="btn social-button" type="button">
-					<i class="fa fa-share"></i>
-					Share
+					<img src="/images/share-button.png">
+					<span>Share</span>
 				</button>
 			</div>
 		</div>
 		
 	</div>
-	<div class="comment-section">
+	<div class="comment-section mb-15">
 		<div class="input-group">
-			<img src="/images/logo.png" class="comment-avatar">
+			<img src="/images/logo.png" class="avatar-md">
 		  	<input type="text" class="form-control comment-input" placeholder="Write a comment...">
 		  	<div class="input-group-append">
 			    <button class="btn comment-button" type="button"><i class="fa fa-camera"></i></button>

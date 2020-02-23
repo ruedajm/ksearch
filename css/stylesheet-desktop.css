@@ -41,6 +41,90 @@ body {
 	border-color: #42b72a !important;
 }
 
+.btn-group .btn:hover {
+	background-color: #e5e6e9;
+}
+
+.list-group-item {
+	padding: 10px 10px !important;
+}
+
+.card-header {
+	background-color: #f6f7f9 !important;
+	text-transform: uppercase;
+	color: #4b4f56;
+	font-weight: bold;
+	font-size: 11px;
+}
+
+.card-body {
+	border-bottom: 1px solid #e5e6e9 !important;
+	padding: 10px 15px !important;
+}
+
+.card-body:last-child {
+	border-bottom: unset !important;
+}
+
+.media {
+	align-items: center !important;
+}
+
+.media .media-body {
+	margin-left: 10px;
+}
+
+.input-group {
+	align-items: center !important;
+}
+
+
+.rating-rounded-sm {
+	color: #fff;
+	font-size: 10px;
+	background-color: #4080ff;
+	border-radius: 10px;
+	padding: 2px 8px;
+}
+
+.rating-rounded-md {
+	color: #fff;
+	font-size: 16px;
+	background-color: #4080ff;
+	border-radius: 14px;
+	padding: 2px 10px;
+}
+
+.avatar-sm {
+	display: inline-block;
+	height: 24px;
+    width: 24px;
+}
+
+.avatar-md {
+	display: inline-block;
+	border-radius: 4px;
+	width: 30px;
+	height: 30px;
+}
+
+.avatar-lg {
+	display: inline-block;
+	border: 1px solid #e6e6e6;
+	/*border-radius: 4px;*/
+	height: 40px;
+	width: 40px;
+}
+
+.avatar-xl {
+	display: inline-block;
+	border: 1px solid #e6e6e6 !important;
+	border-radius: 4px;
+	margin: 15px 0;
+	height: 170px;
+	width: 170px;
+}
+
 .fa {
 	align-self: center;
 }
@@ -55,15 +139,76 @@ body {
 	height: 42px;
 }
 
-.nav-item {
+.fb-nav .nav-item {
 	font-weight: bold;
 }
 
-.facebook-logo {
+.fb-nav .nav-item .nav-link {
+	color: #fff;
+	border-radius: 4px;
+	font-weight: bold;
+	padding: 5px 10px;
+}
+
+.fb-nav .nav-item .nav-link.dropdown-toggle {
+	color: #17233d;
+}
+
+.fb-nav .nav-item .dropdown-menu .dropdown-item {
+	font-size: 12px;
+}
+
+.fb-nav .nav-item .dropdown-menu .dropdown-item:hover {
+	background-color: #4267b2;
+	color: #fff;
+	text-decoration: none;
+}
+
+
+.fb-nav .nav-item .nav-link:hover {
+	background: rgba(0, 0, 0, .1);
+	color: #fff;
+	font-weight: bold;
+}
+
+.fb-nav ul.nav-div {
+	/*margin-left: 5px;*/
+	/*margin-right: 5px;*/
+}
+
+.fb-nav .nav-item .nav-link .badge-secondary {
+	background-color: #29487d !important;
+}
+
+.fb-nav .nav-link.divider {
+	/*background: rgba(0, 0, 0, .1);*/
+	border-right: 1px solid rgba(0, 0, 0, .1);
+}
+
+.fb-nav .nav-div:before {
+	background: rgba(0, 0, 0, .1);
+	content: '';
+    display: block;
+    height: 18px;
+    left: -1px;
+    position: absolute;
+    top: 12px;
+    width: 1px;
+}
+
+.fb-nav ul.nav-div {
+	margin-left: 10px;
+}
+
+.fb-nav ul.nav-div {
+	margin-left: 10px;
+}
+
+.fb-nav .facebook-logo {
 	margin-right: 5px;
 }
 
-.navbar-search-input {
+.fb-nav .navbar-search-input {
 	border-radius: 2px 0 0 2px !important;
 	border: none !important;
 	height: 24px !important;
@@ -71,7 +216,7 @@ body {
 	font-size: 12px !important;
 }
 
-.navbar-search-button {
+.fb-nav .navbar-search-button {
 	border-radius: 0 2px 2px 0 !important;	
 	border: none !important;
 	padding: 0 14px !important;
@@ -79,38 +224,13 @@ body {
 	width: 46px !important;
 }
 
-.avatar {
-	height: 24px;
-    width: 24px;
-}
+
 /* -- NAVBAR --*/
 
 /* -- SIDE BAR --*/
 .side-nav {
 	position: fixed;
 	z-index: 1;
-	width: 170px;
-}
-
-@media only screen and (max-width: 768px) {
-	.side-nav {
-		display: none;
-	}
-}
-
-@media only screen and (min-width: 1024px) {
-	.side-nav {
-		transform: scale(0.9);
-		will-change: transform;
-		top: 10px;
-	}
-}
-
-.side-nav .avatar-big {
-	border: 1px solid #dadde1 !important;
-	border-radius: 4px;
-	margin: 15px 0;
-	height: 170px;
 	width: 170px;
 }
 
@@ -168,7 +288,7 @@ body {
 }
 
 .navbar-2 {
-	height: 52px !important;
+	padding: 10px !important;
 }
 
 .button-icon {
@@ -244,22 +364,14 @@ body {
 }
 
 .posts .media {
-	display: block;
-	margin-bottom: 5px;
-}
-
-.posts .post-avatar {
-	border: 1px solid #e6e6e6;
-	margin-right: 8px;
-	height: 56px;
-	width: 56px;
+	margin-bottom: 10px;
 }
 
 .posts .post-title {
 	color: #365899;
 	font-weight: bold;
 	font-size: 14px;
-	margin-bottom: 2px;
+	margin-bottom: 4px;
 }
 
 .posts .post-time {
@@ -329,17 +441,15 @@ body {
 	color: #7f7f7f !important;
 }
 
+.posts .social-button span {
+	vertical-align: middle;
+}
+
 .posts .comment-section {
 	background-color: #f6f7f9;
 	padding: 10px 15px;
 	border-top: 1px solid #dfe0e4;
 	border-radius: 0 0 2px 2px;
-}
-
-.posts .comment-avatar {
-	width: 30px;
-	height: 30px;
-	display: inline-block;
 }
 
 .posts .comment-input {
@@ -359,6 +469,7 @@ body {
 	border: 1px solid #ced4da !important;
 	border-left: none !important;
 	color: #bfbfbf !important;
+	padding: 6px 15px !important;
 }
 
 .posts .comment-button:hover {
@@ -368,7 +479,7 @@ body {
 
 /* -- RIGHT COLUMN -- */
 
-/* RATING CARD */
+/* -- RATING CARD -- */
 .rating-card {
 	background-color: #fff;
 	border-radius: 2px;
@@ -391,9 +502,9 @@ body {
 .rating-card .fa-star.checked {
 	color: #4080ff;
 }
-/* RATING CARD */
+/* -- RATING CARD -- */
 
-/* SEARCH POSTS */
+/* -- SEARCH POSTS -- */
 .post-search {
 	display: block;
 	border: none;
@@ -403,14 +514,17 @@ body {
 	background-color: #fff !important;
 	color: #92969d !important;
 	border: none !important;
-	border-radius: 2px !important;
+	padding: 10px !important;
+	border-radius: 2px 0 0 2px !important;
 }
 
 .post-search input {
 	border-left: none !important;
 	border: none !important;
-	font-size: 14px;
+	height: 100% !important;
 	border-radius: 2px !important;
+	font-size: 14px;
+	padding: 10px;
 }
 
 .post-search-btn:focus,
@@ -419,4 +533,163 @@ body {
 	border-color: #ced4da !important;
 }
 
-/* SEARCH POSTS */
+/* -- SEARCH POSTS -- */
+
+/* -- REVIEWS -- */
+.review-list .review-image {
+	/*border: 1px solid #e6e6e6;*/
+	height: 40px;
+	width: 40px;
+}
+
+.review-list .review-count {
+	/*color: #365899;*/
+	/*font-weight: bold;*/
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+
+.review-list .review-names {
+	color: #616770;
+}
+/* -- REVIEWS -- */
+
+/* -- ABOUT US CARD -- */
+.about-card .map {
+	width: 100%;
+}
+
+.about-card .media {
+	margin-bottom: 20px;
+}
+/* -- ABOUT US CARD -- */
+.sticky {
+	position: -webkit-sticky;
+	position: sticky !important;
+	top: 42px;
+	/*z-index: 1020;*/
+}
+
+.sticky-right {
+	position: -webkit-sticky;
+	position: sticky !important;
+	top: 105px;
+	/*z-index: 1020;*/
+	float: right;
+}
+
+/* -- SHARE OPINIONS CARD -- */
+.share-opinion-card .card-body .opinion-header {
+	color: #000;
+	margin-bottom: 5px;
+	font-size: 18px;
+}
+
+.share-opinion-card .card-body .opinion-header a {
+	color: #000;
+	font-weight: bold;
+}
+
+.share-opinion-card .card-body .media .media-body .likes-count {
+	color: #969aa5;
+}
+
+.share-opinion-card .card-body .input-group input {
+	border: none;
+	cursor: text;
+	margin-left: 10px;
+	font-size: 12px !important;
+}
+
+.share-opinion-card .card-body .input-group input:focus {
+	box-shadow: none !important;
+}
+/* -- SHARE OPINIONS CARD -- */
+
+/* -- PHOTO GALLERY -- */
+.photos-card .photo-gallery {
+	display: flex;
+	padding: 5px;
+}
+
+.photos-card .photo-gallery .col-md-4 {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+
+.photos-card .photo-gallery .col-md-4.middle {
+	padding-right: 5px !important;
+	padding-left: 5px !important;
+}
+
+
+.photos-card .photo-gallery .col-md-4 .gallery-photo {
+	width: 100%;
+	height: 33%;
+	padding-top: 5px;
+}
+/* -- PHOTO GALLERY -- */
+
+/* -- REVIEWS CARD -- */
+.reviews-card .card-body .media .avatar-lg {
+	align-self: flex-start;
+	width: 55px;
+	height: 55px;
+}
+
+.reviews-card .card-body .media .media-body .btn-group {
+	display: block;
+	border-top: 1px solid #e6e6e6;
+	margin-top: 15px;
+	padding: 10px 0 13px 0;
+}
+
+.reviews-card .card-body .media .media-body .reviewer-name {
+	color: #365899;
+	font-weight: bold;
+	margin-bottom: 4px;
+}
+
+.reviews-card .card-body .media .media-body .rating {
+	color: #4080ff;
+	font-weight: bold;
+	margin-bottom: 4px;
+}
+
+.reviews-card .card-body .media .media-body .btn-group .btn {
+	color: #7f7f7f !important;
+}
+/* -- REVIEWS CARD -- */
+
+/* -- LIKED PAGES CARD -- */
+.liked-pages-card .media .media-body a.page-name{
+	color: #000;
+	font-weight: bold;
+}
+
+.reviews-card .media-body .rating-count {
+	font-weight: bold;
+}
+
+.reviews-card .media-body a {
+	color: #969aa5;
+}
+
+.reviews-card .rating-rounded .fa {
+	font-size: 12px;
+}
+/* -- LIKED PAGES CARD -- */
+
+@media only screen and (max-width: 768px) {
+	.side-nav {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 769px) and (max-width: 1199px) {
+	.side-nav {
+		transform: scale(0.75);
+		will-change: transform;
+		top: -45px;
+	}
+}
