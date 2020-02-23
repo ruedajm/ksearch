@@ -696,9 +696,9 @@ body {
 
 @media screen and (min-width: 1200px) and (max-width: 1440px) {
 	.side-nav {
-		transform: scale(0.9);
+		transform: scale(0.85);
 		will-change: transform;
-		top: 10px;
+		top: 0;
 	}
 }
 
