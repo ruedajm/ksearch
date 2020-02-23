@@ -693,3 +693,11 @@ body {
 		top: -45px;
 	}
 }
+
+@media screen and (max-height: 630px) {
+	.side-nav {
+		transform: scale(0.8);
+		will-change: transform;
+		top: -20px;
+	}
+}
