@@ -694,6 +694,14 @@ body {
 	}
 }
 
+@media screen and (min-width: 1200px) and (max-width: 1440px) {
+	.side-nav {
+		transform: scale(0.8);
+		will-change: transform;
+		top: -20px;
+	}
+}
+
 @media screen and (min-height: 500) and (max-height: 1000px) {
 	.side-nav {
 		transform: scale(0.8);
